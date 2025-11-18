@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import type { ColorScheme } from '@coinbase/cds-common';
 import { ThemeProvider } from '@coinbase/cds-web';
-import { defaultTheme } from '@coinbase/cds-web/themes/defaultTheme';
+import { customTheme } from './theme/customTheme';
 import { Box, Divider, HStack, VStack } from '@coinbase/cds-web/layout';
 import { Sidebar, SidebarItem } from '@coinbase/cds-web/navigation';
 import { MediaQueryProvider } from '@coinbase/cds-web/system';
@@ -10,6 +10,7 @@ import { AssetList } from './components/AssetList';
 import { CDSLogo } from './components/CDSLogo';
 import { CardList } from './components/CardList';
 import { SearchInput } from '@coinbase/cds-web/controls';
+import { FgSecondaryDemo } from './components/FgSecondaryDemo';
 
 const navItems = [
   {
@@ -53,7 +54,7 @@ export const App = () => {
 
   return (
     <MediaQueryProvider>
-      <ThemeProvider theme={defaultTheme} activeColorScheme={activeColorScheme}>
+      <ThemeProvider theme={customTheme} activeColorScheme={activeColorScheme}>
         <HStack background="bg">
           <Sidebar autoCollapse height="100vh" logo={<CDSLogo />}>
             {navItems.map(({ title, icon }, index) => (
@@ -69,20 +70,7 @@ export const App = () => {
           <VStack width="100%" zIndex={0}>
             <Navbar title={activeNavItem.title} toggleColorScheme={toggleColorScheme} />
             <HStack width="100%">
-              <VStack width={{ base: 500, desktop: 660 }}>
-                <Box padding={2}>
-                  <SearchInput
-                    compact
-                    accessibilityLabel="Search"
-                    onChangeText={setSearch}
-                    placeholder="Search"
-                    value={search}
-                  />
-                </Box>
-                <Box paddingX={2} width="100%">
-                  <AssetList pageSize={5} />
-                </Box>
-              </VStack>
+              <FgSecondaryDemo />
               <Divider direction="vertical" />
               <Box paddingX={3} paddingY={2}>
                 <CardList />

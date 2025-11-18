@@ -1,0 +1,71 @@
+/* Custom color classnames for fgSecondary */
+
+/* Background classes */
+.background-fgSecondary {
+  background-color: var(--color-fgSecondary);
+}
+
+.background-fgSecondary-phone {
+  @media (max-width: 767px) {
+    background-color: var(--color-fgSecondary);
+  }
+}
+
+.background-fgSecondary-tablet {
+  @media (min-width: 768px) and (max-width: 1279px) {
+    background-color: var(--color-fgSecondary);
+  }
+}
+
+.background-fgSecondary-desktop {
+  @media (min-width: 1280px) {
+    background-color: var(--color-fgSecondary);
+  }
+}
+
+/* Color (text) classes */
+.color-fgSecondary {
+  color: var(--color-fgSecondary);
+}
+
+.color-fgSecondary-phone {
+  @media (max-width: 767px) {
+    color: var(--color-fgSecondary);
+  }
+}
+
+.color-fgSecondary-tablet {
+  @media (min-width: 768px) and (max-width: 1279px) {
+    color: var(--color-fgSecondary);
+  }
+}
+
+.color-fgSecondary-desktop {
+  @media (min-width: 1280px) {
+    color: var(--color-fgSecondary);
+  }
+}
+
+/* Border color classes */
+.borderColor-fgSecondary {
+  border-color: var(--color-fgSecondary);
+}
+
+.borderColor-fgSecondary-phone {
+  @media (max-width: 767px) {
+    border-color: var(--color-fgSecondary);
+  }
+}
+
+.borderColor-fgSecondary-tablet {
+  @media (min-width: 768px) and (max-width: 1279px) {
+    border-color: var(--color-fgSecondary);
+  }
+}
+
+.borderColor-fgSecondary-desktop {
+  @media (min-width: 1280px) {
+    border-color: var(--color-fgSecondary);
+  }
+}
+
