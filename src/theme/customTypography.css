@@ -1,0 +1,287 @@
+/* Custom typography classnames */
+
+/* Font family classes */
+.fontFamily-titleLg {
+  font-family: var(--fontFamily-titleLg);
+}
+
+.fontFamily-titleMd {
+  font-family: var(--fontFamily-titleMd);
+}
+
+.fontFamily-bodyMd {
+  font-family: var(--fontFamily-bodyMd);
+}
+
+.fontFamily-bodyText {
+  font-family: var(--fontFamily-bodyText);
+}
+
+@media (max-width: 767px) {
+  .fontFamily-titleLg-phone {
+    font-family: var(--fontFamily-titleLg);
+  }
+
+  .fontFamily-titleMd-phone {
+    font-family: var(--fontFamily-titleMd);
+  }
+
+  .fontFamily-bodyMd-phone {
+    font-family: var(--fontFamily-bodyMd);
+  }
+
+  .fontFamily-bodyText-phone {
+    font-family: var(--fontFamily-bodyText);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  .fontFamily-titleLg-tablet {
+    font-family: var(--fontFamily-titleLg);
+  }
+
+  .fontFamily-titleMd-tablet {
+    font-family: var(--fontFamily-titleMd);
+  }
+
+  .fontFamily-bodyMd-tablet {
+    font-family: var(--fontFamily-bodyMd);
+  }
+
+  .fontFamily-bodyText-tablet {
+    font-family: var(--fontFamily-bodyText);
+  }
+}
+
+@media (min-width: 1280px) {
+  .fontFamily-titleLg-desktop {
+    font-family: var(--fontFamily-titleLg);
+  }
+
+  .fontFamily-titleMd-desktop {
+    font-family: var(--fontFamily-titleMd);
+  }
+
+  .fontFamily-bodyMd-desktop {
+    font-family: var(--fontFamily-bodyMd);
+  }
+
+  .fontFamily-bodyText-desktop {
+    font-family: var(--fontFamily-bodyText);
+  }
+}
+
+/* Font size classes */
+.fontSize-titleLg {
+  font-size: var(--fontSize-titleLg);
+}
+
+.fontSize-titleMd {
+  font-size: var(--fontSize-titleMd);
+}
+
+.fontSize-bodyMd {
+  font-size: var(--fontSize-bodyMd);
+}
+
+.fontSize-bodyText {
+  font-size: var(--fontSize-bodyText);
+}
+
+@media (max-width: 767px) {
+  .fontSize-titleLg-phone {
+    font-size: var(--fontSize-titleLg);
+  }
+
+  .fontSize-titleMd-phone {
+    font-size: var(--fontSize-titleMd);
+  }
+
+  .fontSize-bodyMd-phone {
+    font-size: var(--fontSize-bodyMd);
+  }
+
+  .fontSize-bodyText-phone {
+    font-size: var(--fontSize-bodyText);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  .fontSize-titleLg-tablet {
+    font-size: var(--fontSize-titleLg);
+  }
+
+  .fontSize-titleMd-tablet {
+    font-size: var(--fontSize-titleMd);
+  }
+
+  .fontSize-bodyMd-tablet {
+    font-size: var(--fontSize-bodyMd);
+  }
+
+  .fontSize-bodyText-tablet {
+    font-size: var(--fontSize-bodyText);
+  }
+}
+
+@media (min-width: 1280px) {
+  .fontSize-titleLg-desktop {
+    font-size: var(--fontSize-titleLg);
+  }
+
+  .fontSize-titleMd-desktop {
+    font-size: var(--fontSize-titleMd);
+  }
+
+  .fontSize-bodyMd-desktop {
+    font-size: var(--fontSize-bodyMd);
+  }
+
+  .fontSize-bodyText-desktop {
+    font-size: var(--fontSize-bodyText);
+  }
+}
+
+/* Font weight classes */
+.fontWeight-titleLg {
+  font-weight: var(--fontWeight-titleLg);
+}
+
+.fontWeight-titleMd {
+  font-weight: var(--fontWeight-titleMd);
+}
+
+.fontWeight-bodyMd {
+  font-weight: var(--fontWeight-bodyMd);
+}
+
+.fontWeight-bodyText {
+  font-weight: var(--fontWeight-bodyText);
+}
+
+@media (max-width: 767px) {
+  .fontWeight-titleLg-phone {
+    font-weight: var(--fontWeight-titleLg);
+  }
+
+  .fontWeight-titleMd-phone {
+    font-weight: var(--fontWeight-titleMd);
+  }
+
+  .fontWeight-bodyMd-phone {
+    font-weight: var(--fontWeight-bodyMd);
+  }
+
+  .fontWeight-bodyText-phone {
+    font-weight: var(--fontWeight-bodyText);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  .fontWeight-titleLg-tablet {
+    font-weight: var(--fontWeight-titleLg);
+  }
+
+  .fontWeight-titleMd-tablet {
+    font-weight: var(--fontWeight-titleMd);
+  }
+
+  .fontWeight-bodyMd-tablet {
+    font-weight: var(--fontWeight-bodyMd);
+  }
+
+  .fontWeight-bodyText-tablet {
+    font-weight: var(--fontWeight-bodyText);
+  }
+}
+
+@media (min-width: 1280px) {
+  .fontWeight-titleLg-desktop {
+    font-weight: var(--fontWeight-titleLg);
+  }
+
+  .fontWeight-titleMd-desktop {
+    font-weight: var(--fontWeight-titleMd);
+  }
+
+  .fontWeight-bodyMd-desktop {
+    font-weight: var(--fontWeight-bodyMd);
+  }
+
+  .fontWeight-bodyText-desktop {
+    font-weight: var(--fontWeight-bodyText);
+  }
+}
+
+/* Line height classes */
+.lineHeight-titleLg {
+  line-height: var(--lineHeight-titleLg);
+}
+
+.lineHeight-titleMd {
+  line-height: var(--lineHeight-titleMd);
+}
+
+.lineHeight-bodyMd {
+  line-height: var(--lineHeight-bodyMd);
+}
+
+.lineHeight-bodyText {
+  line-height: var(--lineHeight-bodyText);
+}
+
+@media (max-width: 767px) {
+  .lineHeight-titleLg-phone {
+    line-height: var(--lineHeight-titleLg);
+  }
+
+  .lineHeight-titleMd-phone {
+    line-height: var(--lineHeight-titleMd);
+  }
+
+  .lineHeight-bodyMd-phone {
+    line-height: var(--lineHeight-bodyMd);
+  }
+
+  .lineHeight-bodyText-phone {
+    line-height: var(--lineHeight-bodyText);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  .lineHeight-titleLg-tablet {
+    line-height: var(--lineHeight-titleLg);
+  }
+
+  .lineHeight-titleMd-tablet {
+    line-height: var(--lineHeight-titleMd);
+  }
+
+  .lineHeight-bodyMd-tablet {
+    line-height: var(--lineHeight-bodyMd);
+  }
+
+  .lineHeight-bodyText-tablet {
+    line-height: var(--lineHeight-bodyText);
+  }
+}
+
+@media (min-width: 1280px) {
+  .lineHeight-titleLg-desktop {
+    line-height: var(--lineHeight-titleLg);
+  }
+
+  .lineHeight-titleMd-desktop {
+    line-height: var(--lineHeight-titleMd);
+  }
+
+  .lineHeight-bodyMd-desktop {
+    line-height: var(--lineHeight-bodyMd);
+  }
+
+  .lineHeight-bodyText-desktop {
+    line-height: var(--lineHeight-bodyText);
+  }
+}
+
+

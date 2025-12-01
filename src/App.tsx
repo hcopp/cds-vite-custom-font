@@ -11,6 +11,7 @@ import { CDSLogo } from './components/CDSLogo';
 import { CardList } from './components/CardList';
 import { SearchInput } from '@coinbase/cds-web/controls';
 import { FgSecondaryDemo } from './components/FgSecondaryDemo';
+import { Text } from '@coinbase/cds-web/typography';
 
 const navItems = [
   {
@@ -74,6 +75,23 @@ export const App = () => {
               <Divider direction="vertical" />
               <Box paddingX={3} paddingY={2}>
                 <CardList />
+              </Box>
+              <Divider direction="vertical" />
+              <Box paddingX={3} paddingY={2}>
+                <VStack gap={1}>
+                  <Text as="h2" font="titleLg">
+                    Custom Title LG
+                  </Text>
+                  <Text as="h3" font="titleMd" color="fgMuted">
+                    Custom Title MD
+                  </Text>
+                  <Text as="p" font="bodyMd">
+                    Body MD keeps things legible while still feeling roomy across breakpoints.
+                  </Text>
+                  <Text as="p" font="bodyText" color="fgSecondary">
+                    Body Text is great for supporting details or helper text.
+                  </Text>
+                </VStack>
               </Box>
             </HStack>
           </VStack>
